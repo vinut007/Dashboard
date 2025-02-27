@@ -1,0 +1,91 @@
+
+.body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.header{
+    display: flex;
+    border: 10px solid black;
+    height: 56px;
+    justify-content: space-between;
+    border-color:whitesmoke ;
+}
+.sub1{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 30%;
+    margin: 10px;
+
+}
+.find{
+    display: flex;
+    border: 1px solid black;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+
+}
+.box1{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+.find input{
+    display: flex;
+    width: 95%;
+    background-color: whitesmoke;
+    border: none;
+}
+.find img{
+    height: 65%;
+    border-color: whitesmoke;
+   
+}
+.sub2{
+     display: flex;
+     /* border: 1px solid black; */
+    
+     
+}
+.box2{
+    display: flex;
+    align-items: center;
+    border: 3px solid white;
+    border-right-color: lightgray;
+    margin: 4px;
+
+}
+.box2 img{
+    height: 50%; 
+    margin-right: 6px;
+    
+}
+.box3{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+.box3 img{
+    height: 75%; 
+}
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+   
+}
+.text span{
+    font-size: 15px;
+   
+}
+.text p{
+    margin-top: 2px;
+}
