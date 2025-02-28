@@ -9,9 +9,10 @@ import img6 from '../../assets/op3.png'
 import img7 from '../../assets/op4.png'
 import img8 from '../../assets/op5.png'
 import img9 from '../../assets/op8.png'
-import img10 from '../../assets/op9.jpg'
+import img13 from '../../assets/op13.jpg'
 import img11 from '../../assets/op10.png'
 import img12 from '../../assets/op11.png'
+
 
 const Sidebar1=()=>{
     return(
@@ -70,7 +71,7 @@ const Sidebar1=()=>{
             <div className="step5"></div>
             <div className="step6">
                 <div className="solo1">
-                <img src={img10} alt="" className="image2" />
+                <img src={img13} alt="" className="image2" />
                 <p className="text2">Need Help</p>
                 </div>
                 <span className="txt1">Get in touch with one of our</span>
